@@ -24,9 +24,8 @@ namespace OfeningFactoryPattern
             //excel.GenereerRapport();
             //pdf.GenereerRapport();
             //word.GenereerRapport();
-            #endregion
-            #region bij Class 
             RapportGeneratorFactory factory = new RapportGeneratorFactory();
+
 
             IRapportGenerator pdfGenerator = factory.GetRapportGenerator("PDF");
             pdfGenerator.GenereerRapport();
@@ -38,6 +37,6 @@ namespace OfeningFactoryPattern
             wordGenerator.GenereerRapport();
             #endregion
         }
-
+      
     }
 }
