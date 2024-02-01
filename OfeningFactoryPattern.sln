@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfeningFactoryPattern", "OfeningFactoryPattern\OfeningFactoryPattern.csproj", "{0CB8D9A7-D6B6-4531-B223-8FA73DF9D393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryLibrary", "FactoryLibrary\FactoryLibrary.csproj", "{3E6DC757-16BE-43B4-A58C-61A363F75401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB8D9A7-D6B6-4531-B223-8FA73DF9D393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB8D9A7-D6B6-4531-B223-8FA73DF9D393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB8D9A7-D6B6-4531-B223-8FA73DF9D393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB8D9A7-D6B6-4531-B223-8FA73DF9D393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6DC757-16BE-43B4-A58C-61A363F75401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6DC757-16BE-43B4-A58C-61A363F75401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6DC757-16BE-43B4-A58C-61A363F75401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6DC757-16BE-43B4-A58C-61A363F75401}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9C4A78A-60AA-4C88-9596-76BF0BDA16E2}
+	EndGlobalSection
+EndGlobal
